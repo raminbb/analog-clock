@@ -23,8 +23,15 @@
       background-color: #ee5832;
   }
 
+  .clock{
+    position: absolute;
+    width: 500px;
+    height: 500px;
+    top: 0;
+    right: 0;
+  }
   .circle {
-    position: relative;
+    position: absolute;
     width: 400px;
     height: 400px;
   }
