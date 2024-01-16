@@ -198,4 +198,11 @@ header .progress .progress-bar{
 }
 
 
+section{
+  position: absolute;
+  top:300px;
+  margin-right: 50px;
+  margin-left: 50px;
+  justify-content: center;
+}
   
