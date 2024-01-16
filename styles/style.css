@@ -20,17 +20,18 @@
       justify-content: center;
       align-items: center;
       height: 100vh;
-      background-color: #ee5832;
+      background-color: #fae4e4;
   }
   header{
     position: fixed;
     top: 0;
     right: 0;
-    background: #4cfc07;
+    background: #90ebe6;
     color: #fff;
     width: 100%;
     text-align: center;
     font-family: "vazir";
+    z-index: -1;
 }
 
 
@@ -48,14 +49,14 @@ header .progress{
 header .progress .progress-bar{
     width: 0;
     height: 100%;
-    background: linear-gradient(to right, rgb(184,2,216),  rgb(255,0,43));
+    background: linear-gradient(to right, rgb(184,2,216),  rgb(19, 214, 12));
 }
   .clock{
     position: absolute;
     width: 500px;
     height: 500px;
-    top: 20px;
-    right: -50px;
+    top: -95px;
+    right: -68px;
   }
   .circle {
     position: absolute;
@@ -165,6 +166,7 @@ header .progress .progress-bar{
   -ms-transform: rotate(45deg);
   -o-transform: rotate(45deg);
   transform-origin: bottom;
+  background: #eed70a;
   z-index: -1;
 }
 .minute{
@@ -172,8 +174,9 @@ header .progress .progress-bar{
   height: 75px;
   width: 5px;
   top: 135px;
-  left: 25px;
+  left: 35px;
   transform-origin: bottom;
+  background: #e5255e;
   z-index: -1;
 }
 
