@@ -2,6 +2,13 @@ const hour = document.querySelector(".hour");
 const minute = document.querySelector(".minute");
 const seconds = document.querySelector(".seconds");
 
+let date_now = new Date();
+let hr = date_now.getHours();
+let min = date_now.getMinutes();
+let sec = date_now.getSeconds();
+
+console.log(hr);
+
 let set_clock = setInterval(()=>{
 let date_now = new Date();
 let hr = date_now.getHours();
