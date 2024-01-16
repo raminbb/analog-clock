@@ -22,13 +22,40 @@
       height: 100vh;
       background-color: #ee5832;
   }
+  header{
+    position: fixed;
+    top: 0;
+    right: 0;
+    background: #4cfc07;
+    color: #fff;
+    width: 100%;
+    text-align: center;
+    font-family: "vazir";
+}
 
+
+ h2{
+    padding: 20px 0;
+    font-size: 3rem;
+}
+
+header .progress{
+    width: 100%;
+    height: 10px;
+    background-color: #d1d1d1;
+}
+
+header .progress .progress-bar{
+    width: 0;
+    height: 100%;
+    background: linear-gradient(to right, rgb(184,2,216),  rgb(255,0,43));
+}
   .clock{
     position: absolute;
     width: 500px;
     height: 500px;
-    top: 0;
-    right: 0;
+    top: 20px;
+    right: -50px;
   }
   .circle {
     position: absolute;
