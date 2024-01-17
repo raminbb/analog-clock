@@ -165,7 +165,7 @@ header .progress .progress-bar{
   height: 55px;
   width: 10px;
   top: 155px;
-  left:25px;
+  left:33px;
   transform: rotate(45deg);
   -webkit-transform: rotate(45deg);
   -moz-transform: rotate(45deg);
@@ -180,7 +180,7 @@ header .progress .progress-bar{
   height: 75px;
   width: 5px;
   top: 135px;
-  left: 35px;
+  left: 33px;
   transform-origin: bottom;
   background: #e5255e;
   z-index: 1001;
@@ -219,6 +219,7 @@ margin-top: 30px;
 
 section p{
   line-height: 35px;
+  margin-bottom: 50px;
 }
 
 a.to-up{
@@ -233,9 +234,15 @@ a.to-up{
   align-items: center;
   justify-content: center;
   color: #000;
+  opacity: 0;
+  transition: opacity .4s ease;
 }
 
 .to-up svg{
   font-size: 20px;
 
+}
+
+.to-up.upActive{
+  opacity: 1;
 }

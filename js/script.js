@@ -33,3 +33,14 @@ window.addEventListener('scroll', ()=>{
 })
 
 
+
+const toUp = document.querySelector(".to-up");
+
+window.addEventListener("scroll", ()=>{
+    if(window.scrollY>200){
+        toUp.classList.add("upActive");
+    }
+    else{
+        toUp.classList.remove("upActive")
+    }
+})
