@@ -1,3 +1,4 @@
+
 const hour = document.querySelector(".hour");
 const minute = document.querySelector(".minute");
 const seconds = document.querySelector(".seconds");

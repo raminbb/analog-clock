@@ -5,7 +5,7 @@
          url('../fonts/vazir.woff2') format('woff2'), 
          url('../fonts/vazir.woff') format('woff');
   }
-
+/* برای اینکه اسکرول حالت نرمی داشته باشه */
   html{
     scroll-behavior: smooth;
   }
@@ -203,7 +203,7 @@ header .progress .progress-bar{
   z-index: 1001;
 }
 
-
+/*محتوی متنی صفحه در اینجا استایل دهی شد  */
 section{
   position: absolute;
   top:300px;
@@ -221,7 +221,7 @@ section p{
   line-height: 35px;
   margin-bottom: 50px;
 }
-
+/* استایل دادن به دکمه بازگشت به بالا */
 a.to-up{
   position: fixed;
   left:20px;
